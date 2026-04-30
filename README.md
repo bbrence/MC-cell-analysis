@@ -1,4 +1,4 @@
-# PUBLICATION FINAL TITLE
+# A visual analytics framework for quantifying the exploratory behavior of multi-columnar neurons in _Drosophila_
 Accompanying repository for our publication of the Drosophila multi-columnar cell analysis tool. Please read the [publication](XYZ) to familiarize yourself with the tool.
 
 ## Workflow use
