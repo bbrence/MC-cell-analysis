@@ -1,5 +1,5 @@
-# A visual analytics framework for quantifying the exploratory behavior of multi-columnar neurons in _Drosophila_
-Accompanying repository for our publication of the Drosophila multi-columnar cell analysis tool. Please read the [publication](XYZ) to familiarize yourself with the tool.
+# A visual analytics framework for quantifying the exploratory behavior of multicolumnar neurons in _Drosophila_
+Accompanying repository for our publication of the Drosophila multicolumnar cell analysis tool. Please read the [publication](XYZ) to familiarize yourself with the tool.
 
 ## Workflow use
 1. Set the input/output path and desired processing parameters in the configuration file.
