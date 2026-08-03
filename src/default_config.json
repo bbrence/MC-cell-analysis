@@ -1,0 +1,70 @@
+{
+    "output_path": "/output/path",
+
+    "00_get_raw_images":{
+        "input_path": "/input/path"
+    },
+
+    "01_resample_images":{
+        "imaged_from_side": false
+    },
+
+    "02_register_images":{
+        "translation_vector_set": [
+            [0, 0, 0],
+            [363, 168, 15],
+            [-134, -208, -51]
+        ]
+    },
+
+    "03_crop_images":{
+        "min_idx": [560, 270, 0],
+        "max_idx": [1240, 770, 99]
+    },
+
+    "04_register_images_2":{
+        "masking": true
+    },
+
+    "05_thresholding":{
+        "normalize": true,
+
+        "filter": true,
+        "filter_radius": 3,
+
+        "use_otsu": false,
+        "manual_threshold": 6,
+        
+        "min_size": 1000,
+        "only_keep_largest": true
+    },
+
+    "06_correct_centers":{
+        "align_to_first": true,
+        "mask_dilation": 40,
+        "step": 5
+    },
+
+    "07_angle_correction":{
+        "method": "ransac",
+        "distance_threshold": 15,
+        "n_iter": 1000
+    },
+
+    "08_voronoi_regions":{
+
+    },
+
+    "09_compute_overlaps":{
+        "save_overlaps_normalized": true,
+
+        "plot_heatmaps": false,
+        "heatmaps_normalized": true,
+        "column_separation": false,
+
+        "plot_column_counts": false,
+        "column_counts_normalized": true,
+
+        "plot_distr": false
+    }
+}

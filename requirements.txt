@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+SimpleITK
+antspyx
+tqdm
+matplotlib
+opencv-python
+plotly
+h5py
+panel
+bokeh
+tifffile
